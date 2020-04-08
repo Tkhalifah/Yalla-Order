@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".ui.signup.SignupActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Signup With YALLAORDER"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/ic_key"
+                android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="Firstname"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/ic_key"
+                android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="Lastname"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim50"
+                android:layout_marginHorizontal="@dimen/dim48"
+                android:layout_marginTop="@dimen/dim16"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="@dimen/dim8"
+                android:ems="10"
+                android:hint="@string/telephone"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/dim5"
+                android:textSize="@dimen/dim18sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim50"
+                android:layout_marginTop="@dimen/dim16">
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="@dimen/dim50"
+                    android:layout_marginStart="@dimen/dim48"
+                    android:layout_marginEnd="@dimen/dim8"
+                    android:background="@drawable/shape"
+                    android:drawableLeft="@drawable/ic_adress"
+                    android:drawablePadding="8dp"
+                    android:ems="10"
+                    android:hint="@string/adress"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/dim5"
+                    android:textSize="@dimen/dim18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dim26"
+                    android:gravity="center"
+                    android:text="@string/plus"
+                    android:textSize="@dimen/dim24sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/editText7"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editText7" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dim50"
+                android:layout_marginHorizontal="@dimen/dim48"
+                android:layout_marginTop="@dimen/dim16"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/login" />
+
+            <ImageView
+                android:id="@+id/facebook_image"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dim50"
+                android:layout_marginHorizontal="@dimen/dim48"
+                android:layout_marginTop="@dimen/dim4"
+                android:layout_marginBottom="@dimen/dim48"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/wz_facebook" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

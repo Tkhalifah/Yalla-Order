@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">YallaOrder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_description_end_icon">Email</string>
+    <string name="plus">+</string>
+    <string name="adress">Adress</string>
+    <string name="telephone">Telephone</string>
+    <string name="html_text">please provide the user name or e mail adress that you
+        used\n when you signed up for your evernote account.\n
+        Twe will send you am email that will allow you to\n reset your password</string>
+    <string name="sandwitch_burger">Sandwitch Burger</string>
+    <string name="burger_king">Burger King</string>
+    <string name="text">\"Neque porro quisquam est qui dolorem ipsum\n quia dolor sit amet,consectatur, adipisci velit ...\"\nthieir is no one who loves pains itself,</string>
+    <string name="extras">Extras</string>
+    <string name="quantaity">Quantaity</string>
+    <string name="ten">10</string>
+    <string name="title_activity_base">YallaOrder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="home_second">Home Second</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="set_location">Set Location</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="restaurant_menu">Restaurant Menu</string>
+    <string name="add_cart">Add Cart</string>
+    <string name="payment">Payment</string>
+</resources>

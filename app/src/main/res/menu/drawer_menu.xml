@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sign_up"
+            android:icon="@mipmap/ic_sign_icon"
+            android:title="@string/sign_up" />
+        <item
+            android:id="@+id/log_in"
+            android:icon="@mipmap/ic_log_icon"
+            android:title="@string/log_in" />
+        <item
+            android:id="@+id/location"
+            android:icon="@mipmap/ic_plce_icon"
+            android:title="@string/set_location" />
+        <item
+            android:id="@+id/restaurant"
+            android:icon="@mipmap/ic_res_icon"
+            android:title="@string/restaurants" />
+        <item
+            android:id="@+id/res_menu"
+            android:icon="@mipmap/ic_resmen_icon"
+            android:title="@string/restaurant_menu" />
+
+
+    </group>
+    <item android:title="others">
+        <menu>
+            <item
+                android:id="@+id/add_cart"
+                android:icon="@mipmap/ic_add_icon"
+                android:title="@string/add_cart" />
+            <item
+                android:id="@+id/payment"
+                android:icon="@mipmap/ic_pay_icon"
+                android:title="@string/payment" />
+            <item
+                android:id="@+id/forget_pass"
+                android:icon="@mipmap/ic_pass_icon"
+                android:title="@string/forget_password" />
+        </menu>
+    </item>
+</menu>
